@@ -1,0 +1,60 @@
+.hero-section {
+    background: #DEECEC;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5rem 0 12.7rem 0;
+    gap: 2.5rem;
+}
+
+.hero__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.hero__info h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    color: #589195;
+}
+
+.hero__info h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3A415C;
+}
+
+.hero__info p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707686;
+}
+
+.a-btn {
+    width: 170px;
+    background: #589195;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.a-btn a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
