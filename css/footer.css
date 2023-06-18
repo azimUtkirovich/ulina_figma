@@ -1,0 +1,204 @@
+.card-1 {
+    width: 35rem;
+}
+
+.card-2 {
+    width: 18.4rem;
+}
+
+.card-3 {
+    width: 9.9rem;
+}
+
+.card-4 {
+    width: 20rem;
+}
+
+
+footer {
+    background: #E8EAEF;
+}
+
+.footer {
+    padding: 8.9rem 0 1.5rem;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707686;
+}
+
+.card h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #34394C;
+}
+
+.card .input {
+    width: 23.6rem;
+    height: 4rem;
+    background: #FFFFFF;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 1rem;
+    margin-bottom: 2.6rem;
+}
+
+.card .input input {
+    outline: none;
+    border: none;
+}
+
+.card .input input::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #AEB0B8;
+}
+
+.card .input i {
+    color: #7F8495;
+}
+
+.card .icons {
+    display: flex;
+    gap: 1.8rem;
+    margin-bottom: 3.1rem;
+}
+
+.card .icons span .bi {
+    font-size: 2rem;
+    color: #7F8495;
+}
+
+.card-2 .address {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-2 .address li {
+    display: flex;
+    align-items: top;
+    gap: .9rem;
+}
+
+.card-2 .address li span i {
+    font-size: 1.5rem;
+    color: #589195;
+}
+
+.card-2 .address li p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6E7489;
+    text-align: start;
+    margin-top: -.5rem;
+}
+
+.card-3 ul {
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.card-3 ul li a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6E7489;
+}
+
+.card-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-4 h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #34394C;
+}
+
+.card-4 .list {
+    display: flex;
+    gap: 6.5rem;
+}
+
+.card-4 .list .left ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-4 .list .left ul li a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6E7489;
+}
+
+.footer__middle {
+    width: 111rem;
+    border: 1px solid rgba(204, 210, 222, 0.81);
+    margin: 0 auto;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 0 1.5rem;
+}
+
+.footer__bottom .right {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__bottom .left p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #707686;
+}
+
+.footer__bottom .right p a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #707686;
+}

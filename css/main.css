@@ -6,6 +6,11 @@
 @import url(../css/hero.css);
 @import url(../css/latest.css);
 @import url(../css/ulina.css);
+@import url(../css/featured.css);
+@import url(../css/category.css);
+@import url(../css/about.css);
+@import url(../css/icon.css);
+@import url(../css/footer.css);
 
 *,
 *::before,
@@ -42,5 +47,4 @@ body {
     max-width: 144rem;
     padding: 0 14rem;
     margin: 0 auto;
-    border: 1px solid red;
 }

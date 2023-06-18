@@ -1,0 +1,154 @@
+.featured__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12.5rem 0 8.2rem;
+}
+
+.featured__start h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #34394C;
+}
+
+.featured__start p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707686;
+}
+
+.featured__end ul li a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 60px;
+    color: #AFB4C4;
+}
+
+.featured__end ul li a:focus {
+    color: #34394C;
+}
+
+.featured__box {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+}
+
+.featured__top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 2.9rem;
+    flex-wrap: wrap;
+}
+
+.color-size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color {
+    display: flex;
+    gap: 1rem;
+}
+
+.featured-1 {
+    background-image: url(../img/featured/featured-1.png);
+}
+
+.featured-2 {
+    background-image: url(../img/featured/featured-2.png);
+}
+
+.featured-3 {
+    background-image: url(../img/featured/featured-3.png);
+}
+
+.featured-4 {
+    background-image: url(../img/featured/featured-4.png);
+}
+
+.featured-5 {
+    background-image: url(../img/featured/featured-5.png);
+}
+
+.featured-6 {
+    background-image: url(../img/featured/featured-6.png);
+}
+
+.featured-7 {
+    background-image: url(../img/featured/featured-7.png);
+}
+
+.featured-8 {
+    background-image: url(../img/featured/featured-8.png);
+}
+
+.featured__bottom {
+    display: flex;
+    gap: 3rem;
+    padding-top: 9.2rem;
+    padding-bottom: 8.2rem;
+}
+
+.left-box {
+    background-color: #E9E6F0;
+    background-image: url(../img/featured/bottom-1.png);
+}
+
+.right-box {
+    background: #F7EBD9;
+    background-image: url(../img/featured/bottom-2.png);
+}
+
+.bottom-box {
+    width: 50%;
+    height: 32.5rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.bottom-box p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    color: #589195;
+}
+
+.bottom-box h4 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #34394C;
+    padding-bottom: 1rem;
+    width: 19.6rem;
+}
+
+.bottom-box span a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+

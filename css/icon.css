@@ -1,0 +1,6 @@
+.about__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5.5rem 0;
+}

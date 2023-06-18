@@ -1,0 +1,49 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 8.2rem 0 7.5rem;
+}
+
+.category h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #34394C;
+}
+
+.category p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707686;
+}
+
+.category__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__box h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    color: #34394C;
+}
+
+.category__box p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #BFBFBF;
+}
